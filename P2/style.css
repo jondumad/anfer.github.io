@@ -1,0 +1,35 @@
+* {
+    border: 1px solid red;
+}
+
+body{
+    background-image: url(background.jpg);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+h2{
+    font-weight: bold;
+    letter-spacing: 3px;
+    
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragraph{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(106, 18, 194);
+    overflow-y: auto;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- This file is about testing table -->
+        <section id="section1">
+            <h1>About</h1>
+            <img src="" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A eum magnam odio placeat id nostrum sunt officiis illo? Vitae ea quibusdam reiciendis a ex dolor accusamus minus ab illo placeat.</p>
+            <a href="#" target="_blank">Click here</a>
+        </section>
+        <section id="section2">
+            <h1>Projects</h1>
+            <table border="2" width="500" height="">
+                <tr>
+                    <td rowspan="2">No</td>
+                    <td rowspan="2">NIS</td>
+                    <td rowspan="2">Nama</td>
+                    <td rowspan="2">P/L</td>
+                    <td colspan="4">Kehadiran</td>
+                </tr>
+                <tr>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+            </table>
+            <br>
+            <table border="2" width="500">
+                <tr>
+                    <td>18:00</td>
+                    <td>19:00</td>
+                    <td>20:00</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Avengers Infinity War</td>
+                    <td>It Chapter 2</td>
+                </tr>
+                <tr>
+                    <td>One Piece Stampede</td>
+                    <td>Weathering With You</td>
+                    <td>Gundala</td>
+                </tr>
+                <tr>
+                    <td>Gundala</td>
+                    <td colspan="2">Avengers Infinity War</td>
+                </tr>
+            </table>
+            <br>
+            <table border="2" width="500">
+                <tr>
+                    <td rowspan="3">18:00</td>
+                    <td>Avengers Infinity War</td>
+                </tr>
+                <tr>
+                    <td>One piece Stampede</td>
+                </tr>
+                <tr>
+                    <td>Gundala</td>
+                </tr>
+            </table>
+        </section>
+        <section id="section3">
+            <h1>Contact</h1>
+            <form action="" method="get">
+                <table  width="500" height="">
+                <tr>
+                    <td><label for="name">Name</td>
+                    <td>:</td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Phone Number</td>
+                    <td>:</td>
+                    <td><input type="number" name="number" id="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Email Address</td>
+                    <td>:</td>
+                    <td><input type="email" name="address" id="address"></td>
+                </tr>
+                <tr>
+                    <td>Jurusan</td>
+                    <td>:</td>
+                    <td>
+                        <select name="Jurusan" id="jurusan">
+                            <option value="pplg">PPLG</option>
+                            <option value="tjkt">TJKT</option>
+                            <option value="mplb">MPLB</option>
+                            <option value="akkul">AKKUL</option>
+                            <option value="ps">Pemasaran</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="foto">Foto</label></td>
+                    <td>:</td>
+                    <td><input type="file" name="foto" id="foto"></td>
+                </tr>
+                <tr>
+                    <td label for="comment">Comments</td>
+                    <td>:</td>
+                    <td><textarea type="text" name="comment" id="comment"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="submit"> <button>Reset</button></td>
+                </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
