@@ -214,7 +214,7 @@ header .container {
   background-color: var(--aboutUsBackground);
   padding: 1.75cm 0cm; /* Increase padding to create more space */
   margin-top: 2cm;
-  margin-bottom: 4cm;
+  margin-bottom: 1cm;
 }
 
 .about-us-section .container {
@@ -234,6 +234,12 @@ header .container {
   line-height: 2.3;
 }
 
+.our-service-section{
+  padding: 1.75cm 0cm; /* Increase padding to create more space */
+  margin-top: 0px;
+  margin-bottom: 1cm;
+}
+
 .about-us-cta{
   text-align: center;
 }
@@ -243,12 +249,13 @@ header .container {
   flex-wrap: wrap ;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .item {
   color: var(--aboutUsTextColor);
   font-size: 1.1rem;
-  margin: 20px;
+  margin: 5px;
   max-width: 600px;
   line-height: 2.3;
   border-radius: 35px;
@@ -259,7 +266,7 @@ header .container {
   justify-content: space-around; 
   position: relative;
   padding: 2.5rem;
-  background-color: var(--backgroundColor);
+  background-color: var(--aboutUsBackground);
 }
 
 
